@@ -34,7 +34,7 @@ Matomo welcome screen will appear, *Click next*
 
 Matomo will check to make sure that your server meets the requirements, when all the requirement are met *Click next* 
 
-![System check screen](./images/checks.png)
+![System check screen](./images/check.png)
 
 Setup database, the details are prefilled if .env.production is setup while running Matomo docker container.
 
@@ -58,4 +58,4 @@ Tracking code - copy the code to use it in the application, *Click next*
 
 Congratulations - Matomo setup complete , *Click Continue to Matomo*
 
-![Setup complete](.images/complete.png)
+![Setup complete](./images/complete.png)
