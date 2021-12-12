@@ -30,32 +30,32 @@ Goto the url of Matomo
 
 Matomo welcome screen will appear, *Click next*
 
-![Welcome screen](./images/welcome.png)
+<img src="./images/welcome.png" alt="Welcome" width="600" height="300" />
 
 Matomo will check to make sure that your server meets the requirements, when all the requirement are met *Click next* 
 
-![System check screen](./images/check.png)
+<img src="./images/check.png" alt="System check" width="600" height="300" />
 
 Setup database, the details are prefilled if .env.production is setup while running Matomo docker container.
 
-![Database setup](./images/db.png)
+<img src="./images/db.png" alt="Database setup" width="600" height="300" />
 
 Create the tables , *Click next*
 
-![Create the table](./images/tables-message.png)
+<img src="./images/tables-message.png" alt="Create the table" width="600" height="300" />
 
 Setup super user, *Click next*
 
-![Super user](./images/superuser.png)
+<img src="./images/superuser.png" alt="Super user" width="600" height="300" />
 
 Setup the first website to track, *Click next*
 
-![First website](./images/first-website.png)
+<img src="./images/first-website.png" alt="First website" width="600" height="300" />
 
 Tracking code - copy the code to use it in the application, *Click next*
 
-![Tracking code](./images/tracking-code.png)
+<img src="./images/tracking-code.png" alt="Tracking code" width="600" height="300" />
 
 Congratulations - Matomo setup complete , *Click Continue to Matomo*
 
-![Setup complete](./images/complete.png)
+<img src="./images/complete.png" alt="Setup complete" width="600" height="300" />
