@@ -59,3 +59,13 @@ Tracking code - copy the code to use it in the application, *Click next*
 Congratulations - Matomo setup complete , *Click Continue to Matomo*
 
 <img src="./images/complete.png" alt="Setup complete" width="600" height="300" />
+
+> ## Track page url fragment
+
+Tracking the url fragment require it is enable the option from global settings.
+
+Steps -
+1. Click on cog icon on top right corner.
+2. Click on settings under website option on left side of screen.
+3. Scroll on screen and find heading "Page URL fragments tracking".
+4. Check the checkbox.
