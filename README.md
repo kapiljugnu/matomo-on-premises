@@ -65,7 +65,7 @@ Congratulations - Matomo setup complete , *Click Continue to Matomo*
 Tracking the url fragment require it is enable the option from global settings.
 
 Steps -
-1. Click on cog icon on top right corner.
+1. Click on &#x2699; icon on top right corner.
 2. Click on settings under website option on left side of screen.
 3. Scroll on screen and find heading "Page URL fragments tracking".
 4. Check the checkbox.
