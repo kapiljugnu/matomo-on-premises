@@ -1,4 +1,9 @@
-# Matomo-on-premises
+1. [Matomo-on-premises](#matomo-on-premises) 
+2. [Configure Matomo for the first time](#configure-matomo-for-the-first-time) 
+3. [Track page url fragment](#track-page-url-fragment)
+4. [Create custom dimension](#create-custom-dimension)
+
+## Matomo-on-premises
 
 This document explain how to setup the Matomo analytics tool on premises with docker image.
 
@@ -69,3 +74,20 @@ Steps -
 2. Click on settings under website option on left side of screen.
 3. Scroll on screen and find heading "Page URL fragments tracking".
 4. Check the checkbox.
+
+> ## Create custom dimension
+
+With Custom Dimensions you can assign any custom data to your visitors or actions.
+
+By default you can create only 5 visit and 5 Action custom dimension.
+
+For increasing the number execute the command on matomo console.
+```sh
+./console customdimensions:add-custom-dimension --scope=<action|visit> --count=<5>
+```
+
+Steps -
+1. Click on &#x2699; icon on top right corner.
+2. Click on Custom Dimensions under website option on left side of screen.
+3. On screen select the website name next to search input after that under Visit Dimensions click on *Configure a new dimension*.
+4. Give a *name* to dimension and check the *active* checkbox and click create.
